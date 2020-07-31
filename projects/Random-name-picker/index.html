@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Random Name Picker</title>
+    </head>
+    <body>
+        <header id="main-header">
+            <h1>Random Name Picker</h1>
+        </header>
+
+        <form id="add-names">
+            <h2>Names:</h2>
+            <div class = "msg"></div>
+            <label for="names"></label>
+            <textarea id = "names" placeholder="Lara, Keean, Gab"></textarea>
+            <br>
+            <input class="btn" type="submit" value="Submit">
+        </form>
+
+        <div id="main-list">
+            <h2>List of Names:</h2>
+            <div id= "name-list"></div> 
+            <p id="pplJoined"></p>
+        </div>
+
+        <div id= "main-winner">
+            <h2>Winner:</h2>
+            <p id="winner"></p>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
+
+
