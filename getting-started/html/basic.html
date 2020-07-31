@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic html</title>
+	</head>
+
+	<body>
+		<!--a tag defines hyperlink-->
+		<!--href specifies URL of the page the link goes to-->
+		<a href="blog.html">Go to blog</a>
+		<hr>
+		<!--Headings-->
+		<h1>Heading One</h1>
+		<h2>Heading Two</h2>
+		<h3>Heading three</h3>
+		<h4>Heading four</h4>
+
+		<!--Paragraph-->
+		<p>
+			<strong>The 100</strong> <em>(pronounced The Hundred)</em> is an American post-apocalyptic science fiction drama
+			 television series that premiered on March 19, 2014, on The CW.
+		</p>
+		<p>
+			The series follows a group of post-apocalyptic survivors, chiefly a group of criminal adolescents, 
+			including Clarke Griffin (Eliza Taylor), Finn Collins (Thomas McDonell), Bellamy Blake (Bob Morley), 
+			Octavia Blake (Marie Avgeropoulos), Jasper Jordan (Devon Bostick), Monty Green (Christopher Larkin), 
+			Raven Reyes (Lindsey Morgan), John Murphy (Richard Harmon), and Wells Jaha (Eli Goree).  
+			<a href="https://en.wikipedia.org/wiki/The_100_(TV_series)" target="_blank">The 100</a>
+			<!--target specifies where to open the linked document, _blank opens new tab-->
+		</p>
+
+		<!--Lists-->
+		<ul> <!--Unordered List-->
+			<li>List Items 1</li>
+			<li>List Items 2</li>
+			<li>List Items 3</li>
+			<li>List Items 4</li>
+		</ul>
+		<ol> <!--Ordered List-->
+			<li>List Items 1</li>
+			<li>List Items 2</li>
+			<li>List Items 3</li>
+			<li>List Items 4</li>
+		</ol>
+
+		<!--table-->
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+				</tr>
+			<tbody>
+					<tr>
+						<td>Clarke Griffin</td>
+						<td>clarkegriffin@gmail.com</td>
+					</tr>
+					<tr>
+						<td>Bellamy Blake</td>
+						<td>belblake@gmail.com</td>
+					</tr>
+			</tbody>
+			</thead>
+		</table>
+		<br>
+		<hr>
+		<br>
+		<!--forms-->
+		<form action="process.php" method="POST">
+			<div>
+				<label>First Name</label>
+				<input type="text" name="first-name" placeholder="enter first name">
+			</div>
+			<br>
+			<div>
+				<label>Last Name</label>
+				<input type="text" name="last-name">
+			</div>
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>
+				<label>Message</label>
+				<textarea name="message"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Age</label>
+				<input type="number" name="age" value="30">
+			</div>
+			<br>
+			<div>
+				<label>Birthday</label>
+				<input type="date" name="birthday">
+			</div>
+			<br>
+			<input type="submit" name="submit" value="Submit">
+		</form>
+
+		<!--button-->
+		<button>Click Me</button>
+
+		<br>
+
+		<!--image-->
+		<a href="images/the-100.jpg">
+		<img src="images/the-100.jpg" alt="The 100 Casts" width="350" height="200">
+		</a>
+		<!--quotations-->
+		<blockquote cite="https://the100.fandom.com">
+			The 100 is an American post-apocalyptic science fiction drama television series
+			developed by Jason Rothenberg, loosely based on the book series. 
+		</blockquote>
+		<p>The <abbr title="World Wide Web">WWW</abbr>is awesome</p>
+
+		<p><cite>The 100 Wiki</cite></p>
+
+
+		<div style="margin-top:500px"></div>
+
+
+	</body>
+</html>
